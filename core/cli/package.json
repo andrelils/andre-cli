@@ -1,6 +1,6 @@
 {
   "name": "@andre-li/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "andreli <542367736@qq.com>",
   "homepage": "https://github.com/andrelils/andre-cli/tree/main/core/cli#readme",
@@ -13,12 +13,12 @@
   "files": [
     "lib"
   ],
-  "publishConfig": { 
+  "publishConfig": {
     "access": "public"
   },
-  "bin": { 
-  "andre-run": "bin/index.js"
-},
+  "bin": {
+    "andre-run": "bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrelils/andre-cli.git"
