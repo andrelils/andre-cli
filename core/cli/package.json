@@ -1,0 +1,32 @@
+{
+  "name": "@andre-li/cli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "andreli <542367736@qq.com>",
+  "homepage": "https://github.com/andrelils/andre-cli/tree/main/core/cli#readme",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": { 
+    "access": "public"
+  },
+  "bin": { 
+  "andre-run": "bin/index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelils/andre-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/andrelils/andre-cli/issues"
+  }
+}
